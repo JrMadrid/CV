@@ -1,0 +1,83 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+ /* Estilos para el encabezado */
+header{
+  display: flex;
+  background-color: rgb(127, 86, 84);
+  height: 20vh;
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Estilos para la foto */
+#foto {
+  width: 150px; /* Ajusta el tamaño de la foto según sea necesario */
+  height: 150px; /* Ajusta el tamaño de la foto según sea necesario */
+  border-radius: 50%; /* Hace que la foto sea redonda */
+  border: 4px solid rgb(60, 47, 54);
+  margin-right: 120px; /* Espacio entre la foto y el nombre */
+  margin-left: 100px; /* Espacio entre la foto y el nombre */
+  margin-top: 35px; /* Espacio entre la foto y el nombre */
+}
+.name{
+  margin: 0% !important;
+  padding: 0% !important;
+ 
+  display: inline-block;
+}
+/* Estilos para el nombre */
+#nombre {
+  color: whitesmoke;
+  display: block;
+  margin: 0% !important;
+  padding: 0% !important;
+  font-size: 40px; /* Ajusta el tamaño del nombre según sea necesario */
+}
+
+/* Estilos para el contenedor principal */
+#contenedor {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+}
+/* Estilos para la columna izquierda (40% del ancho total) */
+#izquierda {
+  width: 30%; /* Tamaño de la columna izquierda */
+  background-color:rgb(60, 47, 54);
+}
+#izquierda h1{
+  color: whitesmoke;
+  font-family: Arial;
+  font-size: 30px;
+  margin-top: 10px !important;
+}
+#izquierda hr{
+  border: none; /* Elimina el borde predeterminado */
+  height: 2px; /* Define el grosor de la línea */
+  width: 60%;
+  padding: 0% !important;
+  background-color: rgb(125, 98, 112);
+}
+/* Estilos para la columna derecha (60% del ancho total) */
+#derecha {
+  width: 75%; /* Tamaño de la columna derecha */
+  background-color: rgb(255, 251, 248);
+}
+.yo{
+  padding: 5px;
+  padding-left: 25px;
+  color: rgb(60, 47, 54);
+  background-color: rgb(222, 192, 176);
+  text-align: left;
+}
+.contacto{
+  color: rgb(222, 192, 176);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif
+}
+h3{
+  margin: 0% !important;
+  padding: 2px !important;
+}
